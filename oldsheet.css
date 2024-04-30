@@ -7,18 +7,23 @@ body{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  background-image: url(Paintings/portrait_1.jpeg);
+  background-size: cover;
+  background-position: 10%;
   }
   
   /* HEADER */
   header {
-  text-align: center;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   }
   
   header h1{
   font-size: 5vw;
   color: rgb(0, 0, 0);
+  margin-left: 3%;
   }
   header h1 a{
     text-decoration: none;
@@ -40,14 +45,13 @@ body{
     color:black;
   }
 
-  nav{
-    text-align: center;
-  }
-  nav ul{
-
+  nav {
+ 
   }
   nav li{
+    display: inline-block;
     list-style: none;
+    padding-right: 80px;
   }
   nav a{
     text-decoration: none;
@@ -61,39 +65,40 @@ body{
     color: black;
   }
   nav a:hover {
-    color: white;
+    color: brown;
   }
   nav a:active {
     color: white;
   }
   
-  .caption {
-    color: rgb(5, 3, 3);
+  .caption{
+    position: absolute;
+    text-align: left;
+    top: 85%;
+    left: 20%;
+  }
+  .caption h2,p {
+    color: rgb(255, 255, 255);
   }
   .caption h2{
     font-size: 5em;
     padding: 0;
     margin:0;
   }
-  .caption h3{
+  .caption p{
     font-size: 3em;
     padding: 0;
     margin: 0;
+    color: white;
+    text-align: left;
   }
-  .caption h4{
-    font-size: 3em;
-    padding:0;
-    margin:0;
-  }
+
   
   /* MAIN */
   main{
     vertical-align: middle;
   }
 /*HERO IMAGE*/
-.heroImage{
-  
-}
 
 
 /* ABOUT ME PAGE*/
