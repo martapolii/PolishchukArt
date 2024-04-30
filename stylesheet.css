@@ -18,6 +18,7 @@ header h1{
 font-size: 14vw;
 padding-left: 2%;
 color: rgb(0, 0, 0);
+margin-bottom: 3px;
 }
 
 header h1 a{
@@ -40,16 +41,37 @@ header h1 a:focus {
   color:black;
 }
 
-header nav{
-
+nav ul{
+display: flex;
+flex-direction: row;
 }
-
-header nav li{
+nav li{
   list-style: none;
+  padding-right: 5%;
 }
-
-header nav a{
+nav a{
   text-decoration: none;
+  font-size: 4vw;
 }
 
-
+.caption {
+  color: white;
+  position: relative;
+  top: 50%;
+  left: 10%;
+}
+.caption h2{
+  font-size: 3vw;
+  padding: 0;
+  margin:0;
+}
+.caption h3{
+  font-size: 2vw;
+  padding: 0;
+  margin: 0;
+}
+.caption h4{
+  font-size: 2vw;
+  padding:0;
+  margin:0;
+}
