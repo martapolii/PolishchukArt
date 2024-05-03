@@ -40,15 +40,18 @@ body{
   
   /* HEADER */
   header {
-  width: 100%;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  
   }
   
   header h1{
-  font-size: 4em;
+  font-size: 3em;
   color: rgb(0, 0, 0);
+  padding-right: 5%;
   }
   header h1 a{
     text-decoration: none;
@@ -74,10 +77,10 @@ body{
   nav li{
     display: inline-block;
     list-style: none;
-    padding-right: 50px;
+    padding-right: 40px;
   }
   nav a{
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: black;
   }
   nav a:link {
@@ -99,19 +102,18 @@ body{
   /* INDEX PAGE HERO IMAGE */
   .hero{
     position: relative;
-    margin-bottom: 8%;
-    background-color: brown;
   }
 
   .hero img{
     width:80%;
+    margin-left: 10%;
   }
 
   .caption{
     text-align: left;
     position: absolute;
-    top: 85%; 
-    left: 20%; 
+    top: 83%; 
+    left: 30%; 
     transform: translate(-50%, -50%);
   }
 
@@ -155,28 +157,6 @@ body{
   }
 
 
-
-/* ABOUT ME PAGE*/
-.aboutMe{
-  background-color:aliceblue;
-}
-.aboutMe img{
-  float:  left;
-  padding-right: 30px;
-  padding-left: 2%;
-}
-.aboutMe h3{
-  font-size: 1.5em;
-  text-align: center;
-  padding-top: 2%;
-}
-
-.aboutMe p{
-  text-align: left;
-  width: 85%;
-  font-size: 1em;
-  color: black;
-}
 
 /* GALLERY */
 .gallery{
