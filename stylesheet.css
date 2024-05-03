@@ -22,6 +22,21 @@ body{
   h4{
     font-size: 1.5em;
   }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  a:hover{
+    color: brown;
+  }
+  a:active{
+    color:brown;
+  }
+
+  #current { /* highlights current page */
+    color: brown;
+  }
   
   /* HEADER */
   header {
@@ -81,9 +96,6 @@ body{
     color: brown;
   }
 
-  #current {
-    color: brown;
-  }
   /* INDEX PAGE HERO IMAGE */
   .hero{
     position: relative;
@@ -235,9 +247,23 @@ margin-top: 30px;
   object-fit: contain;
 }
 
+.pages{
+display: flex;
+justify-content: center;
+}
+
+.pages ul{
+padding-left: 0;
+}
+.pages li{
+display: inline;
+list-style: none;
+font-size: 2vw;
+}
+
 /* FOOTER */
 footer {
   text-align: center;
   padding: 2%;
-  font-size: 1em;
+  font-size: 0.5em;
 }
