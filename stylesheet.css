@@ -132,8 +132,8 @@ body{
   }
 
   .button{
-    padding: 20px;
-    background-color: rgb(165, 42, 42, 0.5);
+    padding: 4%;
+    background-color: rgba(165, 42, 42, 0.712);
     font-size: 1.5vw;
     color: white;
     text-align: center;
@@ -145,8 +145,9 @@ body{
     text-decoration: none;
   }
   .button:hover{
-  box-shadow: 4px 4px 4px 4px rgb(46, 6, 6);
-  background-color: rgba(165, 42, 42, 0.87);
+    color:white;
+  box-shadow: 2px 2px 2px 2px rgb(46, 6, 6);
+  background-color: rgba(165, 42, 42, 0.925);
   }
 
   
