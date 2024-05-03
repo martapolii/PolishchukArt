@@ -183,6 +183,13 @@ body{
 .single img{
 width: 100%;
 height: auto;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.single_square img{
+width: 80%;
+margin-left: 10%;
+height: auto;
 margin-bottom: 30px;
 margin-top: 30px;
 }
@@ -211,10 +218,22 @@ margin-top: 30px;
 .threeInRow img{
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 
 }
 
+.double_tall {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-bottom:0;
+  padding-bottom: 0;
+  align-items: center;
+}
+.double_tall img{
+  width: 100%;
+  height: 90%;
+  object-fit: contain;
+}
 
 /* FOOTER */
 footer {
