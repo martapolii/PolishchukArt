@@ -173,20 +173,6 @@ body{
 .painting_info{
 }
 
-.single img{
-width: 100%;
-height: auto;
-margin-top: 30px;
-margin-bottom: 30px;
-}
-.single_square img{
-width: 80%;
-margin-left: 10%;
-height: auto;
-margin-bottom: 30px;
-margin-top: 30px;
-}
-
 .main_grid {
   display: grid;
   grid-template-columns: auto auto;
@@ -201,6 +187,21 @@ margin-top: 30px;
   object-fit: contain;
 }
 /* grid areas defined for specific images */
+
+.single img{
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  }
+  .single_square img{
+  width: 80%;
+  margin-left: 10%;
+  height: auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  }
+  
 .threeInRow {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -239,7 +240,7 @@ padding-left: 0;
 .pages li{
 display: inline;
 list-style: none;
-font-size: 2vw;
+font-size: 1.2vw;
 }
 
 /* FOOTER */
