@@ -4,7 +4,7 @@ html{
 }
 
 body{
-  background-color: rgb(236, 236, 236);
+  background-color: rgb(68, 68, 68);
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
@@ -12,7 +12,7 @@ body{
   max-width: 1920px;
   margin: auto;
   height: 100vh;
-  color: black;
+  color: rgb(255, 255, 255);
   }
 
   h3{
@@ -25,17 +25,17 @@ body{
 
   a{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
   }
   a:hover{
     color: brown;
   }
   a:active{
-    color:brown;
+    color:rgb(0, 0, 0);
   }
 
   #current { /* highlights current page */
-    color: brown;
+    color: rgb(0, 0, 0);
   }
   
   /* HEADER */
@@ -50,7 +50,7 @@ body{
   
   header h1{
   font-size: 3em;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   padding-right: 5%;
   }
   header h1 a{
@@ -81,22 +81,22 @@ body{
   }
   nav a{
     font-size: 1.2em;
-    color: black;
+    color: rgb(255, 255, 255);
   }
   nav a:link {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
   }
   nav a:visited {
-    color: black;
+    color: rgb(255, 255, 255);
   }
   nav a:hover {
-    color: brown;
+    color: rgb(0, 0, 0);
     text-decoration: underline;
     text-decoration: solid;
   }
   nav a:active {
-    color: brown;
+    color: rgb(0, 0, 0);
   }
 
   /* INDEX PAGE HERO IMAGE */
@@ -201,7 +201,7 @@ body{
   margin-bottom: 30px;
   margin-top: 30px;
   }
-  
+   
 .threeInRow {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -212,7 +212,7 @@ body{
 .threeInRow img{
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
 
 }
 
