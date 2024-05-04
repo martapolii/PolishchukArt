@@ -219,14 +219,15 @@ body{
 .double_tall {
   display: grid;
   grid-template-columns: auto auto;
-  margin-bottom:0;
-  padding-bottom: 0;
   align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .double_tall img{
-  width: 100%;
-  height: 90%;
+  width: 90%;
+  height: 100%;
   object-fit: contain;
+  margin: auto;
 }
 
 .pages{
@@ -241,6 +242,10 @@ padding-left: 0;
 display: inline;
 list-style: none;
 font-size: 1.2vw;
+}
+
+.back{
+  margin-left:10%;
 }
 
 /* FOOTER */
