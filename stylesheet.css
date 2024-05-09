@@ -257,23 +257,22 @@ font-size: 1em;
 .wrapperCV {
   margin-left: 15%;
   margin-top: 5%;
+  max-width: 1920px;
 }
-
 .wrapperCV ul{
   list-style-type: none;
   line-height: 2em;
   text-align: left;
 }
-
-
-
-
+.wrapperCV h4{
+  margin-bottom: 0;
+}
 
 /* FOOTER */
 footer {
   text-align: center;
   padding: 2%;
-  font-size: 0.5em;
+  font-size: 0.8em;
 }
 
 /* MEDIA QUERIES FOR DIFFERERNT SCREEN SIZES*/
