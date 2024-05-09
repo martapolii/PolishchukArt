@@ -253,6 +253,22 @@ font-size: 1em;
   margin-left:10%;
 }
 
+/* CV PAGE */
+.wrapperCV {
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+.wrapperCV ul{
+  list-style-type: none;
+  line-height: 2em;
+  text-align: left;
+}
+
+
+
+
+
 /* FOOTER */
 footer {
   text-align: center;
