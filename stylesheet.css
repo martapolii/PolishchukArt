@@ -116,18 +116,18 @@ body{
   .caption{
     text-align: left;
     position: absolute;
-    top: 83%; 
+    top: 84%; 
     left: 25%; 
     transform: translate(-50%, -50%);
   }
   .caption h2{
-    font-size: 1.8vw;
+    font-size: 2.4vw;
     padding: 0;
     margin:0;
     color: rgb(255, 255, 255);
   }
   .caption p{
-    font-size: 1.1vw;
+    font-size: 1.4vw;
     padding: 0;
     margin: 0;
     color: rgb(255, 255, 255);
@@ -141,7 +141,7 @@ body{
   .button{
     padding: 4%;
     background-color: rgba(165, 42, 42, 0.712);
-    font-size: 1.1vw;
+    font-size: 1.4vw;
     color: white;
     text-align: center;
     width:min-content;
