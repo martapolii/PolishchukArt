@@ -4,7 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST['guestEmail'];
     $message = $_POST['message'];
     
-    $to = 'm.polishchuk@hotmail.ca';
+    $to = 'polishchukart@gmail.com';
     $subject = 'New Message from PolishchukArt Contact Form';
     $body = "Name: $name\nEmail: $email\nMessage:\n$message";
     
