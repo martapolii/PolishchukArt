@@ -17,7 +17,7 @@ body{
 
   h3{
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
   }
   h4{
     font-size: 1.5em;
@@ -269,9 +269,68 @@ font-size: 1em;
 }
 
 /* CONTACT PAGE */
+.wrapper_contact{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  position: relative;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wrapper_contact_img{
+  flex:1;
+}
+.wrapper_contact_img img{
+  width: 100%;
+  border-radius: 3px;
+  box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.502);
+}
+.wraper_contact a{
+vertical-align: middle;
+}
+blockquote{
+  text-align: left;
+  position: absolute;
+  top: 82%; 
+  left: 10%; 
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  font-size: 1.3vw;
+}
 
-
-
+.wrapper_contact_about{
+  margin-top: 3%;
+  flex:1;
+}
+.wrapper_contact_about p{
+  width: 100%;
+  padding-left: 6%;
+  text-align: left;
+  padding-bottom: 4%;
+  font-size: 1.5em;
+  font-family: 'Times New Roman', Times, serif;
+}
+.wrapper_contact_about h3{
+  margin-top: 0;
+}
+.wrapper_contact_about ul{
+    list-style-type: none;
+    line-height: 2em;
+    text-align: left;
+}
+.wrapper_contact_about h3{
+  margin-bottom: 0;
+  margin-top: 2%;
+  text-align: left;
+  margin-left: 8%;
+  font-size: 1.1em;
+  font-weight: lighter;
+}
+.wrapper_contact_about a:hover{
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.788);
+  color: white;
+}
 
 /* FOOTER */
 footer {
