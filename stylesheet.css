@@ -331,7 +331,7 @@ blockquote{
   left: 10%; 
   transform: translate(-50%, -50%);
   z-index: 1;
-  font-size: 1.3vw;
+  font-size: 1.1vw;
 }
 .wrapper_contact_about{
   margin-top: 3%;
@@ -441,9 +441,7 @@ transform: scale(1.05);
   margin-left: 20%;
   padding-bottom: 0;
 }
-
 }
-
 
   /*SMALL*/
 @media only screen and (min-width: 220px) and (max-width: 991px) {
@@ -473,6 +471,9 @@ transform: scale(1.05);
     top: 0;
     right: 6%;
     z-index: 1;
+  }
+  nav:hover{
+    transform: scale(1.1);
   }
   .dropdown img{
     width: 32px;
@@ -607,13 +608,17 @@ nav ul li:hover .dropdown_menu {
   flex-direction: column;
 }
 blockquote{
-  top: 42%; 
+  top: 47%; 
   left: 20%; 
   transform: translate(-50%, -50%);
   z-index: 1;
-  font-size: 6vw;
+  font-size: 4.2vw;
 }
-
+.wrapper_contact p{
+  width: 90%;
+  margin: auto;
+  margin-top: 4%;
+}
 
 /* FOOTER */
 footer{
