@@ -391,6 +391,11 @@ html{
   width: 80%;
   margin: auto;
 }
+.mobile_body{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 h1{
   text-align: center;
@@ -401,7 +406,7 @@ h1{
   justify-content: center;
 }
 .hero img{
-  height: 80vh;
+  height: 70vh;
   width: auto;
   margin-left: 0;
   border-radius: 3px;
@@ -519,6 +524,9 @@ nav ul li:hover .dropdown_menu {
   background-size: cover;
   background-position-x: right;
   background-repeat: no-repeat;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   }
   .wrapper{
     background-color: rgba(0, 0, 0, 0.717);
