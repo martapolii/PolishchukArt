@@ -146,7 +146,6 @@ body{
   .hero img{
     height: 70vh;
     width: auto;
-    
     border-radius: 3px;
     box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.586);
   }
@@ -449,6 +448,42 @@ transform: scale(1.05);
 .back {
   margin-left: 20%;
   padding-bottom: 0;
+}
+}
+/* MEDIUM */
+@media only screen and (min-width: 992px) and (max-width: 1919px){
+html{
+  width: 100vw;
+  margin: auto;
+}
+body{
+  width: 100vw;
+  margin: auto;
+  height: 100vh;
+  color: rgb(255, 255, 255);
+}
+.hero{
+  position: relative;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero_mobile {
+  display:none;
+}
+.hero img{
+  height: auto;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 3px;
+  box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.586);
+}
+
+/*Gallery*/
+.single_square{
+  width: 80%;
+  margin: auto;
 }
 }
 
