@@ -137,11 +137,9 @@ body{
   .hero{
     position: relative;
   }
-
   .hero_mobile {
     display:none;
   }
-
   .hero img{
     width:80%;
     margin-left: 10%;
@@ -191,7 +189,6 @@ body{
   }
   .button:hover{
   color:white;
-
   background-color: rgba(165, 42, 42, 0.925);
   transform: scale(1.05);
   }
@@ -231,8 +228,8 @@ body{
   height: 100%;
   object-fit: contain;
 }
-/* grid areas defined for specific images */
 
+/* grid areas defined for specific images */
 .single img{
   width: 100%;
   height: auto;
@@ -246,7 +243,6 @@ body{
   margin-bottom: 30px;
   margin-top: 30px;
   }
-
 .threeInRow {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -337,7 +333,6 @@ blockquote{
   z-index: 1;
   font-size: 1.3vw;
 }
-
 .wrapper_contact_about{
   margin-top: 3%;
   flex:1;
@@ -415,9 +410,10 @@ footer {
 
   /* NAV */
   nav{
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 6%;
+    z-index: 1;
   }
   .dropdown img{
     width: 32px;
@@ -497,9 +493,6 @@ nav ul li:hover .dropdown_menu {
 
 
   /* Gallery */
-  .gallery img{
-    box-shadow: 1px 1px 2px black;
-  }
   .gallery{
     margin: 10px auto 10px;
     width: 95%;
