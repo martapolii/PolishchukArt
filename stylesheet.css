@@ -157,13 +157,13 @@ body{
     transform: translate(-50%, -50%);
   }
   .caption h2{
-    font-size: 2.4vw;
+    font-size: 3vw;
     padding: 0;
     margin:0;
     color: rgb(255, 255, 255);
   }
   .caption p{
-    font-size: 1.4vw;
+    font-size: 2vw;
     padding: 0;
     margin: 0;
     color: rgb(255, 255, 255);
@@ -176,10 +176,10 @@ body{
 
   .button{
     position: absolute;
-    top: 100px;
+    top: 80px;
     padding: 4%;
     background-color: rgba(165, 42, 42, 0.712);
-    font-size: 1.4vw;
+    font-size: 2.5vw;
     color: white;
     text-align: center;
     width:min-content;
@@ -191,8 +191,9 @@ body{
   }
   .button:hover{
   color:white;
-  box-shadow: 2px 2px 2px 2px rgb(46, 6, 6);
+
   background-color: rgba(165, 42, 42, 0.925);
+  transform: scale(1.05);
   }
 
   
@@ -392,43 +393,65 @@ footer {
 
   /*SMALL*/
 @media only screen and (min-width: 220px) and (max-width: 767px) {
+  /* General */
   body{
     width: 100vw;
   }
   .hide{
     display: none;
   }
+  .hide_desktop{
+    display: contents;
+  }
 
-  /* Header */
+  /* Header*/
   header{
     width: 100%;
   }
   header h1{
     font-size: 1.7em;
+    text-align: center;
   }
 
+  /* NAV */
   nav{
+    position: fixed;
+    top: 0;
+    right: 6%;
   }
-  nav a{
-    font-size: 0.9em;
+  .dropdown img{
+    width: 32px;
   }
-nav a:link{
-  color:rgb(255, 255, 255);
+  nav ul{
+    list-style: none;
+    padding: 0;
+  }
+  nav ul li{
+    display: inline-block;
+    position: relative;
+  }
+  nav ul li a{
+    display: block;
+    padding: 10px 20px;
+  }
+    /* drop down menu*/
+.dropdown_menu{
+  display: none;
+  position:absolute;
+  top: 100%;
+  right:6%;
+  background-color: #767676;
+  padding: 10px 0;
 }
-nav a:visited{
-  color: rgb(255, 255, 255);
+.dropdown_menu li{
+  display: block;
 }
-nav a:hover{
-  color: rgb(0, 0, 0);
+nav ul li:active .dropdown_menu {
+  display:block;
 }
-nav a:active{
-  color: white;
+nav ul li:hover .dropdown_menu {
+  display:block;
 }
-#current{
-  color: rgb(0, 0, 0);
-}
-  
-
 
   /* Index page */
   .mobile_body{
@@ -450,7 +473,7 @@ nav a:active{
   .mobile_caption{
     display: block;
     position: absolute;
-    margin-top: 125%;
+    margin-top: 135%;
     margin-left: 5%;
   }
   .mobile_caption p{
@@ -458,7 +481,6 @@ nav a:active{
     padding: 0;
     margin-top: 0;
   }
-
   .button{
     position: absolute;
     padding: 10px;
@@ -467,6 +489,10 @@ nav a:active{
     text-align: center;
     width:min-content;
     border: 1px solid white;
+    background-color: rgba(165, 42, 42, 0.374);
+  }
+  .button:hover{
+    transform: scale(1.1);
   }
 
 
