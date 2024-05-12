@@ -404,20 +404,20 @@ h1{
   box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.586);
 }
 .caption{
-  top: 83%; 
-  left: 35%; 
+  top: 80%; 
+  left: 34%; 
 }
 .caption h2{
-  font-size: 2.5vw;
+  font-size: 1.8vw;
 }
 .caption p{
-  font-size: 1.5vw;
+  font-size: 1vw;
 }
 .button{
-  top: 110px;
+  top: 85%;
   padding: 3%;
   background-color: rgba(165, 42, 42, 0.712);
-  font-size: 2vw;
+  font-size: 1.3vw;
   color: white;
   text-align: center;
   width:min-content;
@@ -432,7 +432,19 @@ color:white;
 background-color: rgba(165, 42, 42, 0.925);
 transform: scale(1.05);
 }
+/* Gallery */
+.single_square{
+  width: 80%;
+  margin: auto;
 }
+.back {
+  margin-left: 20%;
+  padding-bottom: 0;
+}
+
+}
+
+
   /*SMALL*/
 @media only screen and (min-width: 220px) and (max-width: 991px) {
   /* General */
