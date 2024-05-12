@@ -174,7 +174,7 @@ body{
 
   .button{
     position: absolute;
-    top: 80px;
+    top: 79%;
     padding: 4%;
     background-color: rgba(165, 42, 42, 0.712);
     font-size: 2.5vw;
@@ -608,11 +608,7 @@ nav ul li:hover .dropdown_menu {
   flex-direction: column;
 }
 blockquote{
-  top: 47%; 
-  left: 20%; 
-  transform: translate(-50%, -50%);
-  z-index: 1;
-  font-size: 4.2vw;
+  display: none;
 }
 .wrapper_contact p{
   width: 90%;
