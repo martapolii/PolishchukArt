@@ -1,1 +1,2 @@
 I was tasked with the creation of a website for an artist. It will function as his portfolio, used to show his work to potential clients and galleries. Link is: www.polishchukart.com. The client requested a simple and clean website with a specific colour scheme. 
+At the moment the website only uses CSS and HTML. Java script functionality will be implemented in the near future to be able to view larger versions of the gallery images with descriptions.
