@@ -146,7 +146,7 @@ body{
     height: 70vh;
     width: auto;
     border-radius: 3px;
-    box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.586);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.1);
   }
 
   .caption{
@@ -321,7 +321,7 @@ font-size: 1em;
 .wrapper_contact_img img{
   width: 100%;
   border-radius: 3px;
-  box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.502);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.1);
 }
 .wraper_contact a{
 vertical-align: middle;
@@ -363,7 +363,7 @@ blockquote{
   font-weight: lighter;
 }
 .wrapper_contact_about a:hover{
-  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.788);
+  transform: scale(1.1);
   color: white;
 }
 .wrapper_contact_about img{
@@ -408,7 +408,7 @@ h1{
   width: auto;
   margin-left: 0;
   border-radius: 3px;
-  box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.586);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.1);
 }
 .caption{
   top: 80%; 
@@ -479,7 +479,7 @@ body{
   margin-left: 10%;
   margin-right: 10%;
   border-radius: 3px;
-  box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.586);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.1);
 }
 .button{
   font-size: 1.5vw;
