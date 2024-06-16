@@ -217,6 +217,7 @@ body{
 .painting_info{
 }
 
+
 .main_grid {
   display: grid;
   grid-template-columns: auto auto;
@@ -227,8 +228,9 @@ body{
 }
 .main_grid img{
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: contain;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.1);
 }
 
 /* grid areas defined for specific images */
@@ -237,6 +239,7 @@ body{
   height: auto;
   margin-top: 30px;
   margin-bottom: 30px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.1);
   }
   .single_square img{
   width: 80%;
@@ -244,6 +247,7 @@ body{
   height: auto;
   margin-bottom: 30px;
   margin-top: 30px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.1);
   }
 .threeInRow {
   display: grid;
@@ -256,6 +260,7 @@ body{
   width: 100%;
   height: 100%;
   object-fit: cover;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.1);
 }
 .double_tall {
   display: grid;
@@ -268,6 +273,7 @@ body{
   height: 100%;
   object-fit: cover;
   margin: auto;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.1);
 }
 
 .pages{
@@ -285,6 +291,7 @@ font-size: 1em;
 .back{
   margin-left:10%;
 }
+
 
 
 
