@@ -143,7 +143,7 @@ body{
     width: auto;
     border-radius: 3px;
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.1);
-    filter:brightness(40%);
+    filter:brightness(30%);
   }
 
   .hero-img {
@@ -161,12 +161,12 @@ body{
     font-size: 3vw;
     padding: 0;
     margin:0;
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.815);
   }
   .caption p{
     font-size: 2vw;
     margin: 0;
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.781);
     text-align: left;
     padding-bottom: 10%;
   }
@@ -178,21 +178,20 @@ body{
   .button{
     position: relative;
     padding: 4%;
-    background-color: rgba(122, 122, 122, 0.733);
+    background-color: rgba(0, 0, 0, 0.534);
     font-size: 2vw;
-    color: white;
     text-align: center;
     width:min-content;
     border-radius: 3px;
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.1);
   }
   .button {
-    color: white;
+    color: rgb(196, 196, 196);
     text-decoration: none;
   }
   .button:hover{
   color:white;
-  background-color: rgb(122, 122, 122);
+  background-color: rgba(7, 7, 7, 0.795);
   transform: scale(1.05);
   }
 
@@ -332,7 +331,6 @@ font-size: 1em;
 .wrapper_contact{
   display: flex;
   flex-direction: row;
-  margin-top: 30px;
   text-align: center;
   width: 50%;
   margin-left: auto;
@@ -344,7 +342,6 @@ vertical-align: middle;
 }
 
 .wrapper_contact_about{
-  margin-top: 3%;
   flex:1;
 }
 
@@ -370,7 +367,6 @@ footer {
   text-align: center;
   padding: 2%;
   font-size: 0.8em;
-  bottom: 0;
   width: 100%;
   color: #767676;
 }
@@ -496,14 +492,14 @@ footer {
       display: block;
       padding: 10px 20px;
     }
-      /* drop down menu*/
+      /* drop down menu*/ 
   .dropdown_menu{
     display: none;
     position:absolute;
-    top: 100%;
-    right:6%;
+    right: 6%;
     background-color: #767676;
     padding: 10px 0;
+    border-radius: 3px;
   }
   .dropdown_menu li{
     display: block;
@@ -531,9 +527,8 @@ footer {
     }
     .caption{
       text-align: center;
-      position: absolute;
-      margin-top: 0;
-      left: 32% ;
+      top: 20%;
+      left: 50%;
     }
     .mobile_caption{
       display: block;
@@ -547,17 +542,11 @@ footer {
       margin-top: 0;
     }
     .button{
-      position: absolute;
-      padding: 10px;
+      padding: 20px;
       font-size: 6vw;
-      color: white;
+      color: rgb(233, 232, 232);
       text-align: center;
       width:min-content;
-      border: 1px solid white;
-      background-color: rgba(165, 42, 42, 0.374);
-    }
-    .button:hover{
-      transform: scale(1.1);
     }
   
   
