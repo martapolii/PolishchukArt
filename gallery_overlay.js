@@ -31,9 +31,12 @@ closeBox.id = "lbOverlayClose";
 closeBox.innerHTML = "&times;" // adding HTML for button symbol (an x)
 closeBox.onclick = function () { //adding an event handler to close the overlay in response to an onclick event
   document.body.removeChild(overlay);
+  document.body.classList.remove('no-scroll'); //re-enable scrolling
 };
 overlay.appendChild(closeBox); // appending button to the overlay or it won't show
 document.body.appendChild(overlay); //appending overlay to the html body
+document.body.classList.add('no-scroll'); // disable scrolling
+
 }
 
 // Attach event listeners to each gallery image

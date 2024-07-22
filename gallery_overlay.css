@@ -11,7 +11,7 @@ div#lbOverlay {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: auto;
+  overflow: hidden;
 }
 
 /* Styles for the figure box within the overlay */
@@ -19,7 +19,7 @@ div#lbOverlay figure {
   display: block;
   width: auto;
   max-height: 90vh;
-  overflow: auto;
+  overflow: hidden;
 }
 
 
@@ -73,3 +73,27 @@ div#lbOverlay div#lbOverlayClose:hover {
   from {transform:scale(0)}
   to {transform:scale(1)}
 }
+
+
+.no-scroll {
+  overflow: hidden;
+}
+
+
+  /**********SMALL SCREENS*************/
+  @media only screen and (min-width: 220px) and (max-width: 991px) {
+    /* styles for the images */
+    div#lbOverlay figure img {
+      max-width: 100%;
+      max-height: calc(90vh - 40px); /* fit within viewport - space for caption and padding */
+      display: block;
+      margin-left: 0;
+    }
+    
+    /* styles for the overlay close button */
+    div#lbOverlay div#lbOverlayClose {
+      position: fixed;
+      top: 30px;
+      z-index: 2;
+    }
+  }
