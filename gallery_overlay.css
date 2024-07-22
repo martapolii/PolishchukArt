@@ -28,7 +28,7 @@ div#lbOverlay figure img {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  width: auto;
+  max-width: 100%;
   max-height: calc(80vh - 40px); /* fit within viewport - space for caption and padding*/
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.712), 0 0 0 1px rgba(0, 0, 0, 0.712);
   animation-name: zoom;      
@@ -84,7 +84,6 @@ div#lbOverlay div#lbOverlayClose:hover {
   @media only screen and (min-width: 220px) and (max-width: 991px) {
     /* styles for the images */
     div#lbOverlay figure img {
-      max-width: 100%;
       max-height: calc(90vh - 40px); /* fit within viewport - space for caption and padding */
       display: block;
       margin-left: 0;
