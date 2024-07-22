@@ -1,0 +1,75 @@
+/* Gallery Overlay Styling */
+
+div#lbOverlay {
+  position: fixed;                        /* Overlay is fixed on screen */
+  z-index: 1;                             /* Overlay sits on top of other content */
+  width: 100%;                            /* Full width */
+  height: 100%;                           /* Full height */
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.808);  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+/* Styles for the figure box within the overlay */
+div#lbOverlay figure {
+  display: block;
+  width: auto;
+  max-height: 90vh;
+  overflow: auto;
+}
+
+
+/* styles for the images */
+div#lbOverlay figure img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: auto;
+  max-height: calc(80vh - 40px); /* fit within viewport - space for caption and padding*/
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.712), 0 0 0 1px rgba(0, 0, 0, 0.712);
+  animation-name: zoom;      
+  animation-duration: 0.8s;    
+}
+
+/* styles for the caption */
+div#lbOverlay figure figcaption {
+  text-align: center;
+  font-size: 1.25em;
+  color: rgb(199, 199, 199);
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.774);
+  animation-name: zoom;      
+  animation-duration: 1s;   
+  padding-top: 10px;
+  padding-bottom: 20px;   
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+/* styles for the overlay close button */
+div#lbOverlay div#lbOverlayClose {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  color: rgb(199, 199, 199);
+  font-size: 40px;
+  cursor: pointer !important;
+  user-select: none;
+}
+
+/* hovering style for the modal window close button */
+div#lbOverlay div#lbOverlayClose:hover {
+  color: #a8a8a8;
+  text-shadow: 3px 3px 0px black;
+  cursor: pointer !important;
+}
+
+/* keyframe animation for the opening of the modal window figure and caption */
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
