@@ -19,7 +19,7 @@ div#lbOverlay figure {
   display: block;
   width: auto;
   max-height: 90vh;
-  overflow: hidden;
+  overflow: auto;
 }
 
 
