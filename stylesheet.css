@@ -407,8 +407,8 @@ footer {
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.1);
   }
   .caption{
-    top: 80%; 
-    left: 34%; 
+    top: 60%; 
+    left: 44%; 
   }
   .caption h2{
     font-size: 1.8vw;
