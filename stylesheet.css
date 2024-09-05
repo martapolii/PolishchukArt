@@ -415,17 +415,13 @@ footer {
   .button{
     top: 85%;
     padding: 3%;
-    background-color: rgba(165, 42, 42, 0.712);
     font-size: 1.3vw;
     color: white;
     text-align: center;
     width:min-content;
-    border: 1px solid white;
-  }
-  .button {
-    color: white;
     text-decoration: none;
   }
+
   .button:hover{
   color:white;
   background-color: rgba(165, 42, 42, 0.925);
