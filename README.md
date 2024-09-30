@@ -1,2 +1,15 @@
-I was tasked with the creation of a website for an artist. It will function as his portfolio, used to show his work to potential clients and galleries. Link is: www.polishchukart.com. The client requested a simple and clean website with a specific colour scheme. 
-At the moment the website only uses CSS and HTML. Java script functionality will be implemented in the near future to be able to view larger versions of the gallery images with descriptions.
+This repository contains the code for a personal website built for Ihor Polishchuk, a Toronto-based artist. The website is designed to showcase his extensive body of work, including a gallery of his paintings, a CV section with details about his exhibitions, and a contact page.
+
+The website features:
+- Home Page: A hero image with links to the gallery.
+- Gallery Pages: Two pages showcasing paintings, each image clickable for more details in an overlay.
+- CV Page: A detailed curriculum vitae listing solo and group exhibitions.
+- Contact Page: Provides contact information and links to social media profiles.
+  
+Key Features:
+- Gallery Overlay: A JavaScript-powered overlay to display full-size images with captions.
+- Responsive Design: Optimized for both desktop and mobile views with media queries.
+- Mobile Navigation: Hamburger menu for easy navigation on smaller screens.
+- CSS Styling: Custom styles for the layout, typography, and gallery design.
+
+This project demonstrates my ability to create a visually engaging and fully functional website using HTML, CSS, and JavaScript.
